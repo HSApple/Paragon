@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9D000122DCCCD000F3D6A9 /* safe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D000022DCCCD000F3D6A9 /* safe.jpg */; };
+		3F9D000322DCD29D00F3D6A9 /* Depression Fifth ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */; };
+		3F9D000522DCD36400F3D6A9 /* DepressionSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */; };
+		3F9D000722DCD3A500F3D6A9 /* DepressionSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */; };
+		3F9D000922DCD6A200F3D6A9 /* AnxietyFifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000822DCD6A200F3D6A9 /* AnxietyFifthViewController.swift */; };
+		3F9D000B22DCD70000F3D6A9 /* AnxietySixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000A22DCD70000F3D6A9 /* AnxietySixthViewController.swift */; };
+		3F9D000D22DCD75300F3D6A9 /* AnxietySeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000C22DCD75300F3D6A9 /* AnxietySeventhViewController.swift */; };
+		3F9D000F22DCDF6900F3D6A9 /* StressFifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000E22DCDF6900F3D6A9 /* StressFifthViewController.swift */; };
+		3F9D001122DCE0A900F3D6A9 /* StressSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D001022DCE0A900F3D6A9 /* StressSixthViewController.swift */; };
+		3F9D001322DCE0E500F3D6A9 /* StressSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D001222DCE0E500F3D6A9 /* StressSeventhViewController.swift */; };
+		3F9D001522DCE51300F3D6A9 /* worry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D001422DCE51200F3D6A9 /* worry.png */; };
+		3F9D001922DCE5E800F3D6A9 /* panic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D001822DCE5E800F3D6A9 /* panic.jpg */; };
+		3F9D001B22DCE69900F3D6A9 /* FAMILY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D001A22DCE69800F3D6A9 /* FAMILY.jpg */; };
+		3F9D001D22DCE78900F3D6A9 /* restless.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D001C22DCE78800F3D6A9 /* restless.gif */; };
+		3F9D001F22DCE87A00F3D6A9 /* irritated.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D001E22DCE87900F3D6A9 /* irritated.png */; };
+		3F9D002122DCE8CF00F3D6A9 /* lacking.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002022DCE8CE00F3D6A9 /* lacking.png */; };
+		3F9D002322DCE98B00F3D6A9 /* hopeless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002222DCE98A00F3D6A9 /* hopeless.jpg */; };
+		3F9D002522DCEA0700F3D6A9 /* important.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002422DCEA0600F3D6A9 /* important.jpg */; };
+		3F9D002722DCEA6D00F3D6A9 /* medicine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002622DCEA6C00F3D6A9 /* medicine.jpg */; };
+		3F9D002922DCEAD800F3D6A9 /* suicide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002822DCEAD600F3D6A9 /* suicide.jpg */; };
+		3F9D002B22DCEBBE00F3D6A9 /* fatigue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002A22DCEBBD00F3D6A9 /* fatigue.jpg */; };
+		3F9D002D22DCEE6300F3D6A9 /* reckless.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002C22DCEE6100F3D6A9 /* reckless.png */; };
+		3F9D002F22DCEF1B00F3D6A9 /* sports.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D002E22DCEF1A00F3D6A9 /* sports.png */; };
+		3F9DFFFD22DCC79300F3D6A9 /* tired.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DFFFC22DCC79200F3D6A9 /* tired.jpg */; };
+		3F9DFFFF22DCCA5300F3D6A9 /* overwhelmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DFFFE22DCCA5200F3D6A9 /* overwhelmed.png */; };
 		3FCDC6A622D6293300433AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A522D6293300433AAB /* AppDelegate.swift */; };
 		3FCDC6A822D6293300433AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A722D6293300433AAB /* ViewController.swift */; };
 		3FCDC6AB22D6293300433AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A922D6293300433AAB /* Main.storyboard */; };
@@ -51,6 +76,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F9D000022DCCCD000F3D6A9 /* safe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = safe.jpg; path = ../../../../../Documents/safe.jpg; sourceTree = "<group>"; };
+		3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Depression Fifth ViewController.swift"; sourceTree = "<group>"; };
+		3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSixthViewController.swift; sourceTree = "<group>"; };
+		3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSeventhViewController.swift; sourceTree = "<group>"; };
+		3F9D000822DCD6A200F3D6A9 /* AnxietyFifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyFifthViewController.swift; sourceTree = "<group>"; };
+		3F9D000A22DCD70000F3D6A9 /* AnxietySixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietySixthViewController.swift; sourceTree = "<group>"; };
+		3F9D000C22DCD75300F3D6A9 /* AnxietySeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietySeventhViewController.swift; sourceTree = "<group>"; };
+		3F9D000E22DCDF6900F3D6A9 /* StressFifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressFifthViewController.swift; sourceTree = "<group>"; };
+		3F9D001022DCE0A900F3D6A9 /* StressSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressSixthViewController.swift; sourceTree = "<group>"; };
+		3F9D001222DCE0E500F3D6A9 /* StressSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressSeventhViewController.swift; sourceTree = "<group>"; };
+		3F9D001422DCE51200F3D6A9 /* worry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = worry.png; path = ../../../../../Documents/worry.png; sourceTree = "<group>"; };
+		3F9D001822DCE5E800F3D6A9 /* panic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panic.jpg; path = ../../../../../Documents/panic.jpg; sourceTree = "<group>"; };
+		3F9D001A22DCE69800F3D6A9 /* FAMILY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FAMILY.jpg; path = ../../../../../Documents/FAMILY.jpg; sourceTree = "<group>"; };
+		3F9D001C22DCE78800F3D6A9 /* restless.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = restless.gif; path = ../../../../../Documents/restless.gif; sourceTree = "<group>"; };
+		3F9D001E22DCE87900F3D6A9 /* irritated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = irritated.png; path = ../../../../../Documents/irritated.png; sourceTree = "<group>"; };
+		3F9D002022DCE8CE00F3D6A9 /* lacking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lacking.png; path = ../../../../../Documents/lacking.png; sourceTree = "<group>"; };
+		3F9D002222DCE98A00F3D6A9 /* hopeless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hopeless.jpg; path = ../../../../../Documents/hopeless.jpg; sourceTree = "<group>"; };
+		3F9D002422DCEA0600F3D6A9 /* important.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = important.jpg; path = ../../../../../Documents/important.jpg; sourceTree = "<group>"; };
+		3F9D002622DCEA6C00F3D6A9 /* medicine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medicine.jpg; path = ../../../../../Documents/medicine.jpg; sourceTree = "<group>"; };
+		3F9D002822DCEAD600F3D6A9 /* suicide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = suicide.jpg; path = ../../../../../Documents/suicide.jpg; sourceTree = "<group>"; };
+		3F9D002A22DCEBBD00F3D6A9 /* fatigue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fatigue.jpg; path = ../../../../../Documents/fatigue.jpg; sourceTree = "<group>"; };
+		3F9D002C22DCEE6100F3D6A9 /* reckless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reckless.png; path = ../../../../../Documents/reckless.png; sourceTree = "<group>"; };
+		3F9D002E22DCEF1A00F3D6A9 /* sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sports.png; path = ../../../../../Documents/sports.png; sourceTree = "<group>"; };
+		3F9DFFFC22DCC79200F3D6A9 /* tired.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tired.jpg; path = ../../../../../Documents/tired.jpg; sourceTree = "<group>"; };
+		3F9DFFFE22DCCA5200F3D6A9 /* overwhelmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overwhelmed.png; path = ../../../../../Documents/overwhelmed.png; sourceTree = "<group>"; };
 		3FCDC6A222D6293300433AAB /* S.O.S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S.O.S.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCDC6A522D6293300433AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCDC6A722D6293300433AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +182,22 @@
 		3FCDC6A422D6293300433AAB /* S.O.S */ = {
 			isa = PBXGroup;
 			children = (
+				3F9D002E22DCEF1A00F3D6A9 /* sports.png */,
+				3F9D002C22DCEE6100F3D6A9 /* reckless.png */,
+				3F9D002A22DCEBBD00F3D6A9 /* fatigue.jpg */,
+				3F9D002822DCEAD600F3D6A9 /* suicide.jpg */,
+				3F9D002622DCEA6C00F3D6A9 /* medicine.jpg */,
+				3F9D002422DCEA0600F3D6A9 /* important.jpg */,
+				3F9D002222DCE98A00F3D6A9 /* hopeless.jpg */,
+				3F9D002022DCE8CE00F3D6A9 /* lacking.png */,
+				3F9D001E22DCE87900F3D6A9 /* irritated.png */,
+				3F9D001C22DCE78800F3D6A9 /* restless.gif */,
+				3F9D001A22DCE69800F3D6A9 /* FAMILY.jpg */,
+				3F9D001822DCE5E800F3D6A9 /* panic.jpg */,
+				3F9D001422DCE51200F3D6A9 /* worry.png */,
+				3F9D000022DCCCD000F3D6A9 /* safe.jpg */,
+				3F9DFFFE22DCCA5200F3D6A9 /* overwhelmed.png */,
+				3F9DFFFC22DCC79200F3D6A9 /* tired.jpg */,
 				3FCDC6DB22D62D7800433AAB /* 1325787.gif */,
 				3FCDC6DD22D630A000433AAB /* Paragon.png */,
 				3FCDC6D922D62D7400433AAB /* Blue-Rectangle.png */,
@@ -140,6 +206,15 @@
 				3FCDC6A522D6293300433AAB /* AppDelegate.swift */,
 				3FCDC6A722D6293300433AAB /* ViewController.swift */,
 				3FCDC6A922D6293300433AAB /* Main.storyboard */,
+				3F9D001222DCE0E500F3D6A9 /* StressSeventhViewController.swift */,
+				3F9D001022DCE0A900F3D6A9 /* StressSixthViewController.swift */,
+				3F9D000E22DCDF6900F3D6A9 /* StressFifthViewController.swift */,
+				3F9D000C22DCD75300F3D6A9 /* AnxietySeventhViewController.swift */,
+				3F9D000A22DCD70000F3D6A9 /* AnxietySixthViewController.swift */,
+				3F9D000822DCD6A200F3D6A9 /* AnxietyFifthViewController.swift */,
+				3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */,
+				3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */,
+				3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */,
 				3FCDC6F322D6595A00433AAB /* DepressionSecondViewController.swift */,
 				3FCDC6F522D6596F00433AAB /* DepressionThirdViewController.swift */,
 				3FCDC6F722D6599D00433AAB /* DepressionFourthViewController.swift */,
@@ -280,14 +355,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9D002F22DCEF1B00F3D6A9 /* sports.png in Resources */,
 				3FCDC6DC22D62D7900433AAB /* 1325787.gif in Resources */,
+				3F9D001B22DCE69900F3D6A9 /* FAMILY.jpg in Resources */,
+				3F9D002D22DCEE6300F3D6A9 /* reckless.png in Resources */,
 				3FCDC6DE22D630A000433AAB /* Paragon.png in Resources */,
+				3F9D002B22DCEBBE00F3D6A9 /* fatigue.jpg in Resources */,
 				3FCDC6DA22D62D7500433AAB /* Blue-Rectangle.png in Resources */,
+				3F9D002322DCE98B00F3D6A9 /* hopeless.jpg in Resources */,
 				3FCDC6B022D6293500433AAB /* LaunchScreen.storyboard in Resources */,
 				3FCDC6AD22D6293500433AAB /* Assets.xcassets in Resources */,
 				3FCDC6D422D62AF100433AAB /* Unknown.png in Resources */,
 				3FCDC6D822D62D1400433AAB /* green.jpg in Resources */,
+				3F9D001F22DCE87A00F3D6A9 /* irritated.png in Resources */,
+				3F9D001D22DCE78900F3D6A9 /* restless.gif in Resources */,
+				3F9D001522DCE51300F3D6A9 /* worry.png in Resources */,
+				3F9D002922DCEAD800F3D6A9 /* suicide.jpg in Resources */,
+				3F9D002122DCE8CF00F3D6A9 /* lacking.png in Resources */,
+				3F9D002722DCEA6D00F3D6A9 /* medicine.jpg in Resources */,
 				3FCDC6AB22D6293300433AAB /* Main.storyboard in Resources */,
+				3F9DFFFF22DCCA5300F3D6A9 /* overwhelmed.png in Resources */,
+				3F9D000122DCCCD000F3D6A9 /* safe.jpg in Resources */,
+				3F9DFFFD22DCC79300F3D6A9 /* tired.jpg in Resources */,
+				3F9D001922DCE5E800F3D6A9 /* panic.jpg in Resources */,
+				3F9D002522DCEA0700F3D6A9 /* important.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,9 +404,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCDC6F222D6591000433AAB /* AnxietyFourthViewController.swift in Sources */,
+				3F9D000522DCD36400F3D6A9 /* DepressionSixthViewController.swift in Sources */,
+				3F9D000922DCD6A200F3D6A9 /* AnxietyFifthViewController.swift in Sources */,
+				3F9D001122DCE0A900F3D6A9 /* StressSixthViewController.swift in Sources */,
+				3F9D000D22DCD75300F3D6A9 /* AnxietySeventhViewController.swift in Sources */,
 				3FCDC6F022D658FE00433AAB /* AnxietyThirdViewController.swift in Sources */,
 				3FCDC6EA22D6582800433AAB /* StressThirdViewController.swift in Sources */,
 				3FCDC6A822D6293300433AAB /* ViewController.swift in Sources */,
+				3F9D000322DCD29D00F3D6A9 /* Depression Fifth ViewController.swift in Sources */,
 				3FCDC6A622D6293300433AAB /* AppDelegate.swift in Sources */,
 				3FCDC6E422D632C700433AAB /* DepressionViewController.swift in Sources */,
 				3FCDC6EC22D6583C00433AAB /* StressFourthViewController.swift in Sources */,
@@ -323,8 +419,12 @@
 				3FCDC6F622D6596F00433AAB /* DepressionThirdViewController.swift in Sources */,
 				3FCDC6E622D6331200433AAB /* StressViewController.swift in Sources */,
 				3FCDC6F822D6599D00433AAB /* DepressionFourthViewController.swift in Sources */,
+				3F9D001322DCE0E500F3D6A9 /* StressSeventhViewController.swift in Sources */,
+				3F9D000722DCD3A500F3D6A9 /* DepressionSeventhViewController.swift in Sources */,
+				3F9D000B22DCD70000F3D6A9 /* AnxietySixthViewController.swift in Sources */,
 				3FCDC6E822D657EB00433AAB /* StressSecondViewController.swift in Sources */,
 				3FCDC6F422D6595A00433AAB /* DepressionSecondViewController.swift in Sources */,
+				3F9D000F22DCDF6900F3D6A9 /* StressFifthViewController.swift in Sources */,
 				3FCDC6E222D6329100433AAB /* AnxietyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
