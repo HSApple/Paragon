@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F07FA9F22E0B84E00495874 /* rest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FA9E22E0B84D00495874 /* rest.jpg */; };
+		3F07FAA122E0B85A00495874 /* meditate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAA022E0B85900495874 /* meditate.jpg */; };
+		3F07FAA322E0B86400495874 /* listeningToMusic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAA222E0B86300495874 /* listeningToMusic.jpg */; };
+		3F07FAA522E0B87500495874 /* time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAA422E0B87400495874 /* time.jpg */; };
+		3F07FAA722E0B88500495874 /* exercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAA622E0B88400495874 /* exercise.jpg */; };
+		3F07FAA922E0B89600495874 /* sleep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAA822E0B89400495874 /* sleep.jpg */; };
+		3F07FAAB22E0B8A000495874 /* illegalDrugs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAAA22E0B89F00495874 /* illegalDrugs.jpg */; };
+		3F07FAAD22E0BD6500495874 /* panicAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAAC22E0BD6300495874 /* panicAttack.jpg */; };
+		3F07FAAF22E0BD7800495874 /* worry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAAE22E0BD7700495874 /* worry.jpg */; };
+		3F07FAB122E0BD8900495874 /* fear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB022E0BD8800495874 /* fear.jpg */; };
+		3F07FAB322E0BD9900495874 /* family2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB222E0BD9800495874 /* family2.jpg */; };
+		3F07FAB522E0BDB200495874 /* restless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB422E0BDB100495874 /* restless.jpg */; };
+		3F07FAB722E0BDBD00495874 /* irritated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB622E0BDBC00495874 /* irritated.jpg */; };
+		3F07FAB922E0BDC300495874 /* lackOfConcentration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAB822E0BDC200495874 /* lackOfConcentration.jpg */; };
+		3F07FABB22E0C14200495874 /* breathingExercise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FABA22E0C14000495874 /* breathingExercise.jpg */; };
+		3F07FABD22E0C14B00495874 /* listeningToMusic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FABC22E0C14900495874 /* listeningToMusic2.jpg */; };
+		3F07FABF22E0C15500495874 /* rememberingThePresent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FABE22E0C15400495874 /* rememberingThePresent.jpg */; };
+		3F07FAC122E0C16600495874 /* movement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC022E0C16300495874 /* movement.jpg */; };
+		3F07FAC322E0C17200495874 /* calm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC222E0C17100495874 /* calm.jpg */; };
+		3F07FAC522E0C18000495874 /* writing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC422E0C17F00495874 /* writing.jpg */; };
+		3F07FAC722E0C5D300495874 /* hopeless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC622E0C5D100495874 /* hopeless.jpg */; };
+		3F07FAC922E0C5DA00495874 /* feelingImportant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAC822E0C5D800495874 /* feelingImportant.jpg */; };
+		3F07FACB22E0C5E900495874 /* medication.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FACA22E0C5E700495874 /* medication.jpg */; };
+		3F07FACD22E0C5F400495874 /* suicide.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FACC22E0C5F200495874 /* suicide.png */; };
+		3F07FACF22E0C5FF00495874 /* lossOfInterest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FACE22E0C5FD00495874 /* lossOfInterest.jpg */; };
+		3F07FAD122E0C60400495874 /* lossOfEnergy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD022E0C60200495874 /* lossOfEnergy.jpg */; };
+		3F07FAD322E0C61400495874 /* reckless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD222E0C61200495874 /* reckless.jpg */; };
+		3F07FAD522E0CC5800495874 /* prescriptionMedication.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD422E0CC5600495874 /* prescriptionMedication.jpg */; };
+		3F07FAD722E0CC6500495874 /* groupOfFriends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD622E0CC6300495874 /* groupOfFriends.jpg */; };
+		3F07FAD922E0CC7400495874 /* exercise2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAD822E0CC7200495874 /* exercise2.jpg */; };
+		3F07FADB22E0CC7C00495874 /* healthyDiet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADA22E0CC7A00495874 /* healthyDiet.jpg */; };
+		3F07FADD22E0CCAD00495874 /* activitiesThatAreOfInterest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADC22E0CCAB00495874 /* activitiesThatAreOfInterest.jpg */; };
+		3F07FADF22E0CCBF00495874 /* listeningToMusic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */; };
+		3F07FAE122E0CCCB00495874 /* think.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE022E0CCC900495874 /* think.jpg */; };
+		3F07FAE322E0CE4700495874 /* beingOutside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE222E0CE4400495874 /* beingOutside.jpg */; };
 		3F9D000322DCD29D00F3D6A9 /* Depression Fifth ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */; };
 		3F9D000522DCD36400F3D6A9 /* DepressionSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */; };
 		3F9D000722DCD3A500F3D6A9 /* DepressionSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */; };
@@ -88,6 +123,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F07FA9E22E0B84D00495874 /* rest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rest.jpg; path = Pictures/rest.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAA022E0B85900495874 /* meditate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditate.jpg; path = Pictures/meditate.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAA222E0B86300495874 /* listeningToMusic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = listeningToMusic.jpg; path = Pictures/listeningToMusic.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAA422E0B87400495874 /* time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = time.jpg; path = Pictures/time.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAA622E0B88400495874 /* exercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exercise.jpg; path = Pictures/exercise.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAA822E0B89400495874 /* sleep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sleep.jpg; path = Pictures/sleep.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAAA22E0B89F00495874 /* illegalDrugs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = illegalDrugs.jpg; path = Pictures/illegalDrugs.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAAC22E0BD6300495874 /* panicAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panicAttack.jpg; path = Pictures/panicAttack.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAAE22E0BD7700495874 /* worry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = worry.jpg; path = Pictures/worry.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAB022E0BD8800495874 /* fear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fear.jpg; path = Pictures/fear.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAB222E0BD9800495874 /* family2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = family2.jpg; path = Pictures/family2.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAB422E0BDB100495874 /* restless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restless.jpg; path = Pictures/restless.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAB622E0BDBC00495874 /* irritated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = irritated.jpg; path = Pictures/irritated.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAB822E0BDC200495874 /* lackOfConcentration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lackOfConcentration.jpg; path = Pictures/lackOfConcentration.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FABA22E0C14000495874 /* breathingExercise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = breathingExercise.jpg; path = Pictures/breathingExercise.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FABC22E0C14900495874 /* listeningToMusic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = listeningToMusic2.jpg; path = Pictures/listeningToMusic2.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FABE22E0C15400495874 /* rememberingThePresent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rememberingThePresent.jpg; path = Pictures/rememberingThePresent.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAC022E0C16300495874 /* movement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = movement.jpg; path = Pictures/movement.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAC222E0C17100495874 /* calm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calm.jpg; path = Pictures/calm.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAC422E0C17F00495874 /* writing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = writing.jpg; path = Pictures/writing.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAC622E0C5D100495874 /* hopeless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hopeless.jpg; path = Pictures/hopeless.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAC822E0C5D800495874 /* feelingImportant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feelingImportant.jpg; path = Pictures/feelingImportant.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FACA22E0C5E700495874 /* medication.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medication.jpg; path = Pictures/medication.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FACC22E0C5F200495874 /* suicide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suicide.png; path = Pictures/suicide.png; sourceTree = SOURCE_ROOT; };
+		3F07FACE22E0C5FD00495874 /* lossOfInterest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lossOfInterest.jpg; path = Pictures/lossOfInterest.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAD022E0C60200495874 /* lossOfEnergy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lossOfEnergy.jpg; path = Pictures/lossOfEnergy.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAD222E0C61200495874 /* reckless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = reckless.jpg; path = Pictures/reckless.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAD422E0CC5600495874 /* prescriptionMedication.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prescriptionMedication.jpg; path = Pictures/prescriptionMedication.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAD622E0CC6300495874 /* groupOfFriends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = groupOfFriends.jpg; path = Pictures/groupOfFriends.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAD822E0CC7200495874 /* exercise2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exercise2.jpg; path = Pictures/exercise2.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FADA22E0CC7A00495874 /* healthyDiet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = healthyDiet.jpg; path = Pictures/healthyDiet.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FADC22E0CCAB00495874 /* activitiesThatAreOfInterest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = activitiesThatAreOfInterest.jpg; path = Pictures/activitiesThatAreOfInterest.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = listeningToMusic2.jpg; path = Pictures/listeningToMusic2.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAE022E0CCC900495874 /* think.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = think.jpg; path = Pictures/think.jpg; sourceTree = SOURCE_ROOT; };
+		3F07FAE222E0CE4400495874 /* beingOutside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beingOutside.jpg; path = Pictures/beingOutside.jpg; sourceTree = SOURCE_ROOT; };
 		3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Depression Fifth ViewController.swift"; sourceTree = "<group>"; };
 		3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSixthViewController.swift; sourceTree = "<group>"; };
 		3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSeventhViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +279,41 @@
 		3FCDC6A422D6293300433AAB /* S.O.S */ = {
 			isa = PBXGroup;
 			children = (
+				3F07FAE222E0CE4400495874 /* beingOutside.jpg */,
+				3F07FAE022E0CCC900495874 /* think.jpg */,
+				3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */,
+				3F07FADC22E0CCAB00495874 /* activitiesThatAreOfInterest.jpg */,
+				3F07FADA22E0CC7A00495874 /* healthyDiet.jpg */,
+				3F07FAD822E0CC7200495874 /* exercise2.jpg */,
+				3F07FAD622E0CC6300495874 /* groupOfFriends.jpg */,
+				3F07FAD422E0CC5600495874 /* prescriptionMedication.jpg */,
+				3F07FAD222E0C61200495874 /* reckless.jpg */,
+				3F07FAD022E0C60200495874 /* lossOfEnergy.jpg */,
+				3F07FACE22E0C5FD00495874 /* lossOfInterest.jpg */,
+				3F07FACC22E0C5F200495874 /* suicide.png */,
+				3F07FACA22E0C5E700495874 /* medication.jpg */,
+				3F07FAC822E0C5D800495874 /* feelingImportant.jpg */,
+				3F07FAC622E0C5D100495874 /* hopeless.jpg */,
+				3F07FAC422E0C17F00495874 /* writing.jpg */,
+				3F07FAC222E0C17100495874 /* calm.jpg */,
+				3F07FAC022E0C16300495874 /* movement.jpg */,
+				3F07FABE22E0C15400495874 /* rememberingThePresent.jpg */,
+				3F07FABC22E0C14900495874 /* listeningToMusic2.jpg */,
+				3F07FABA22E0C14000495874 /* breathingExercise.jpg */,
+				3F07FAB822E0BDC200495874 /* lackOfConcentration.jpg */,
+				3F07FAB622E0BDBC00495874 /* irritated.jpg */,
+				3F07FAB422E0BDB100495874 /* restless.jpg */,
+				3F07FAB222E0BD9800495874 /* family2.jpg */,
+				3F07FAB022E0BD8800495874 /* fear.jpg */,
+				3F07FAAE22E0BD7700495874 /* worry.jpg */,
+				3F07FAAC22E0BD6300495874 /* panicAttack.jpg */,
+				3F07FAAA22E0B89F00495874 /* illegalDrugs.jpg */,
+				3F07FAA822E0B89400495874 /* sleep.jpg */,
+				3F07FAA622E0B88400495874 /* exercise.jpg */,
+				3F07FAA422E0B87400495874 /* time.jpg */,
+				3F07FAA222E0B86300495874 /* listeningToMusic.jpg */,
+				3F07FAA022E0B85900495874 /* meditate.jpg */,
+				3F07FA9E22E0B84D00495874 /* rest.jpg */,
 				3FB8BEC922DE3ED4005C5400 /* fatigued.jpg */,
 				3FB8BEC722DE3E4C005C5400 /* safe.png */,
 				3FB8BEC622DE3D5E005C5400 /* fatigue.jp2 */,
@@ -393,20 +498,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F07FACD22E0C5F400495874 /* suicide.png in Resources */,
+				3F07FAB722E0BDBD00495874 /* irritated.jpg in Resources */,
 				3FB8BEC822DE3E4D005C5400 /* safe.png in Resources */,
 				3FCDC6DC22D62D7900433AAB /* 1325787.gif in Resources */,
 				3FCDC6DE22D630A000433AAB /* Paragon.png in Resources */,
 				3FCDC6DA22D62D7500433AAB /* Blue-Rectangle.png in Resources */,
+				3F07FAAD22E0BD6500495874 /* panicAttack.jpg in Resources */,
+				3F07FADF22E0CCBF00495874 /* listeningToMusic2.jpg in Resources */,
 				3FB8BEBD22DE39CA005C5400 /* headache.jpg in Resources */,
+				3F07FA9F22E0B84E00495874 /* rest.jpg in Resources */,
+				3F07FAA122E0B85A00495874 /* meditate.jpg in Resources */,
+				3F07FAA922E0B89600495874 /* sleep.jpg in Resources */,
+				3F07FABB22E0C14200495874 /* breathingExercise.jpg in Resources */,
+				3F07FAA522E0B87500495874 /* time.jpg in Resources */,
+				3F07FACF22E0C5FF00495874 /* lossOfInterest.jpg in Resources */,
 				3FB8BEC122DE3B97005C5400 /* overwhelmed.jpg in Resources */,
+				3F07FAB522E0BDB200495874 /* restless.jpg in Resources */,
+				3F07FADD22E0CCAD00495874 /* activitiesThatAreOfInterest.jpg in Resources */,
+				3F07FACB22E0C5E900495874 /* medication.jpg in Resources */,
+				3F07FAC122E0C16600495874 /* movement.jpg in Resources */,
+				3F07FAB122E0BD8900495874 /* fear.jpg in Resources */,
+				3F07FAD122E0C60400495874 /* lossOfEnergy.jpg in Resources */,
+				3F07FAAB22E0B8A000495874 /* illegalDrugs.jpg in Resources */,
+				3F07FAE322E0CE4700495874 /* beingOutside.jpg in Resources */,
+				3F07FAA322E0B86400495874 /* listeningToMusic.jpg in Resources */,
 				3FCDC6B022D6293500433AAB /* LaunchScreen.storyboard in Resources */,
+				3F07FAD322E0C61400495874 /* reckless.jpg in Resources */,
+				3F07FAC522E0C18000495874 /* writing.jpg in Resources */,
+				3F07FAA722E0B88500495874 /* exercise.jpg in Resources */,
+				3F07FAC322E0C17200495874 /* calm.jpg in Resources */,
+				3F07FAC922E0C5DA00495874 /* feelingImportant.jpg in Resources */,
+				3F07FAD922E0CC7400495874 /* exercise2.jpg in Resources */,
+				3F07FAC722E0C5D300495874 /* hopeless.jpg in Resources */,
+				3F07FAE122E0CCCB00495874 /* think.jpg in Resources */,
 				3FCDC6AD22D6293500433AAB /* Assets.xcassets in Resources */,
+				3F07FAD722E0CC6500495874 /* groupOfFriends.jpg in Resources */,
 				3FCDC6D422D62AF100433AAB /* Unknown.png in Resources */,
+				3F07FAD522E0CC5800495874 /* prescriptionMedication.jpg in Resources */,
 				3FB8BEBF22DE3B1D005C5400 /* lotsOfWork.jpg in Resources */,
 				3FB8BECA22DE3ED5005C5400 /* fatigued.jpg in Resources */,
+				3F07FABF22E0C15500495874 /* rememberingThePresent.jpg in Resources */,
+				3F07FAAF22E0BD7800495874 /* worry.jpg in Resources */,
 				3FCDC6D822D62D1400433AAB /* green.jpg in Resources */,
 				3FB8BEC522DE3C1F005C5400 /* tired.jpg in Resources */,
 				3FB8BEC322DE3BC2005C5400 /* stomachache.jpg in Resources */,
+				3F07FADB22E0CC7C00495874 /* healthyDiet.jpg in Resources */,
+				3F07FABD22E0C14B00495874 /* listeningToMusic2.jpg in Resources */,
+				3F07FAB922E0BDC300495874 /* lackOfConcentration.jpg in Resources */,
+				3F07FAB322E0BD9900495874 /* family2.jpg in Resources */,
 				3FCDC6AB22D6293300433AAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
