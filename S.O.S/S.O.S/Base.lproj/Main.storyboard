@@ -113,42 +113,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="rgW-sE-RfZ">
-                                <rect key="frame" x="82" y="650" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOX-TU-dcb">
-                                <rect key="frame" x="284" y="653" width="30" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
-                                <state key="normal" title="No">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="JJB-RL-EBB">
-                                <rect key="frame" x="250" y="650" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pD-Po-Jn0">
-                                <rect key="frame" x="284" y="653" width="30" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
-                                <state key="normal" title="No">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Woi-0d-R9L">
-                                <rect key="frame" x="116" y="653" width="31" height="38"/>
+                                <rect key="frame" x="103" y="425" width="44" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="TsI-F9-mIb" eventType="touchUpInside" id="Dkh-GZ-fyq"/>
+                                    <segue destination="n7W-lI-W5b" kind="show" id="afH-LV-O94"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tired.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hLc-86-Z53">
                                 <rect key="frame" x="20" y="119" width="374" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pD-Po-Jn0">
+                                <rect key="frame" x="257" y="425" width="34" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n7W-lI-W5b" kind="show" id="MdJ-gm-CRO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRH-G2-h5A">
+                                <rect key="frame" x="157" y="491" width="100" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="L6g-Ra-IB3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46194795058561688" blue="0.55873098798624432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="AdN-Oc-qAj"/>
@@ -173,34 +175,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZR7-6R-15Q">
-                                <rect key="frame" x="67" y="654" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vSF-6y-YTp">
-                                <rect key="frame" x="240" y="658" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9n-5e-XbT">
-                                <rect key="frame" x="277" y="661" width="30" height="38"/>
+                                <rect key="frame" x="254" y="427" width="34" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="l3D-t4-CLW" kind="show" id="Cfu-Q0-1uR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drd-2f-VRg">
-                                <rect key="frame" x="101" y="657" width="31" height="38"/>
+                                <rect key="frame" x="113" y="425" width="44" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="n7W-lI-W5b" eventType="touchUpInside" id="KRu-2W-2Yj"/>
+                                    <segue destination="l3D-t4-CLW" kind="show" id="od0-4R-r7I"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotsOfWork.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bm8-OG-rNS">
                                 <rect key="frame" x="20" y="125" width="374" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiL-Go-wmK">
+                                <rect key="frame" x="157" y="500" width="100" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TsI-F9-mIb" kind="show" id="IGK-x8-NPb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46194795059999999" blue="0.55873098799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="WkS-WZ-cRU"/>
@@ -218,22 +230,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="W7d-xK-SkA">
-                                <rect key="frame" x="66" y="702" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Upe-qh-xVS">
-                                <rect key="frame" x="229" y="698" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBR-dX-Uta">
-                                <rect key="frame" x="270" y="705" width="30" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
-                                <state key="normal" title="No">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you feeling overwhelmed?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sli-iR-iPh">
                                 <rect key="frame" x="28" y="44" width="358" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -242,17 +238,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpM-ZY-7TK">
-                                <rect key="frame" x="100" y="698" width="31" height="38"/>
+                                <rect key="frame" x="104" y="449" width="44" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="l3D-t4-CLW" eventType="touchUpInside" id="ECb-ME-IZT"/>
+                                    <segue destination="qSa-xP-4jK" kind="show" id="wtT-8r-yaF"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overwhelmed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WbH-Ch-7bs">
                                 <rect key="frame" x="24" y="156" width="366" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USp-7m-BKI">
+                                <rect key="frame" x="157" y="515" width="100" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n7W-lI-W5b" kind="show" id="97R-4n-kb5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBR-dX-Uta">
+                                <rect key="frame" x="269" y="449" width="34" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qSa-xP-4jK" kind="show" id="9wm-eh-qas"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.46194795059999999" blue="0.55873098799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fxv-Jh-Aj4"/>
@@ -277,34 +299,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hnG-y8-c6k">
-                                <rect key="frame" x="70" y="699" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="6jm-EP-eSe">
-                                <rect key="frame" x="238" y="699" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTT-Bw-QQI">
-                                <rect key="frame" x="280" y="699" width="30" height="38"/>
+                                <rect key="frame" x="262" y="426" width="34" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B41-tj-gSM">
-                                <rect key="frame" x="103" y="699" width="31" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="19"/>
-                                <state key="normal" title="Yes">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <connections>
+                                    <segue destination="jN5-E2-gdh" kind="show" id="wRL-fj-LqB"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="safe.png" translatesAutoresizingMaskIntoConstraints="NO" id="hzV-4j-TEX">
                                 <rect key="frame" x="20" y="119" width="374" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfA-KJ-At4">
+                                <rect key="frame" x="157" y="501" width="100" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l3D-t4-CLW" kind="show" id="1R5-9a-u0L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B41-tj-gSM">
+                                <rect key="frame" x="103" y="426" width="44" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="qSa-xP-4jK" eventType="touchUpInside" id="1Nw-ZH-2Pk"/>
+                                    <segue destination="jN5-E2-gdh" kind="show" id="fXO-MD-lhz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549019602" green="0.46274509803921571" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Vga-y0-d3V"/>
@@ -330,32 +362,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkR-GE-vrj">
-                                <rect key="frame" x="118" y="425" width="44" height="47"/>
+                                <rect key="frame" x="108" y="425" width="44" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTF-y7-rzv">
-                                <rect key="frame" x="265" y="425" width="34" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
-                                <state key="normal" title="No">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="jN5-E2-gdh" eventType="touchUpInside" id="9Ox-ND-s1y"/>
+                                    <segue destination="WHf-Aq-rzj" kind="show" id="7pg-D6-yGf"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fatigued.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lDd-SX-6Ye">
                                 <rect key="frame" x="20" y="125" width="374" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ite-5W-VWA">
-                                <rect key="frame" x="157" y="497" width="100" height="47"/>
+                                <rect key="frame" x="157" y="507" width="100" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qSa-xP-4jK" kind="show" id="hhf-09-Ghq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTF-y7-rzv">
+                                <rect key="frame" x="273" y="425" width="34" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WHf-Aq-rzj" kind="show" id="9Hg-9C-2wd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.46666666666666667" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -388,6 +430,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="WHf-Aq-rzj" eventType="touchUpInside" id="aNh-ga-Flb"/>
+                                    <segue destination="eZg-9m-Poa" kind="show" id="e67-nP-Qr5"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="headache.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eMk-gH-Dj8">
                                 <rect key="frame" x="20" y="123" width="374" height="208"/>
@@ -400,6 +446,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jN5-E2-gdh" kind="show" id="H5B-sX-jiy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrL-NE-oc1">
                                 <rect key="frame" x="260" y="425" width="34" height="47"/>
@@ -408,6 +457,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="eZg-9m-Poa" kind="show" id="wUA-h0-dwZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.46666666670000001" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -440,6 +492,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="F66-d2-Hwe" kind="show" id="mns-f3-6dv"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stomachache.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mpx-sb-7B6">
                                 <rect key="frame" x="20" y="170" width="374" height="215"/>
@@ -452,6 +507,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="WHf-Aq-rzj" kind="show" id="RTm-eY-HtK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz5-bf-vx2">
                                 <rect key="frame" x="103" y="425" width="44" height="47"/>
@@ -460,6 +518,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="eZg-9m-Poa" eventType="touchUpInside" id="84L-ZM-0L0"/>
+                                    <segue destination="F66-d2-Hwe" kind="show" id="0mJ-3m-YYI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745098039216" green="0.47058823529411764" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -469,6 +531,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUV-mc-B5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5531.884057971015" y="-539.0625"/>
+        </scene>
+        <!--Stress Loading View Controller-->
+        <scene sceneID="jI9-qG-Yfr">
+            <objects>
+                <viewController id="F66-d2-Hwe" customClass="StressLoadingViewController" customModule="S_O_S" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="15V-qc-08e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please wait a moment in order to give you the correct advice." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnB-n1-kwg">
+                                <rect key="frame" x="20" y="44" width="374" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjZ-cj-A5L">
+                                <rect key="frame" x="116" y="425" width="182" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Recieve Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.47450980392156861" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BMi-Pm-SgB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kE6-Pg-h9S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6295.652173913044" y="-539.0625"/>
         </scene>
         <!--Stress Answer View Controller-->
         <scene sceneID="oxC-3L-Maj">
@@ -489,6 +583,25 @@
                                 <rect key="frame" x="33" y="124" width="349" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcT-7R-IEg">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="PdE-w1-UhJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Daz-bo-b10">
+                                <rect key="frame" x="115" y="557" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.47450980392156861" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="xfQ-aw-a0u"/>
@@ -496,7 +609,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1C-fo-oTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6563.7681159420299" y="-539.0625"/>
+            <point key="canvasLocation" x="7106" y="-540"/>
         </scene>
         <!--Stress Answer2 View Controller-->
         <scene sceneID="B2Z-Fo-efT">
@@ -517,6 +630,25 @@
                                 <rect key="frame" x="42" y="122" width="331" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZm-tb-QHR">
+                                <rect key="frame" x="145" y="430" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="TgI-lG-Gob"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKN-Lo-L7Q">
+                                <rect key="frame" x="115" y="575" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="c45-UH-Lyz"/>
@@ -524,7 +656,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVx-lw-Uzf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7244.9275362318849" y="-539.0625"/>
+            <point key="canvasLocation" x="7768" y="-540"/>
         </scene>
         <!--Stress Answer3 View Controller-->
         <scene sceneID="FBw-WV-xPh">
@@ -545,6 +677,25 @@
                                 <rect key="frame" x="45" y="122" width="324" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nX6-qE-tUR">
+                                <rect key="frame" x="149" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aGf-9m-cGy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNd-R1-TSw">
+                                <rect key="frame" x="115" y="575" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rBh-v6-F2B"/>
@@ -552,7 +703,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Znj-kv-vyZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7902.898550724638" y="-539.0625"/>
+            <point key="canvasLocation" x="8423" y="-540"/>
         </scene>
         <!--Stress Answer4 View Controller-->
         <scene sceneID="r5k-P0-BcY">
@@ -573,6 +724,25 @@
                                 <rect key="frame" x="48" y="123" width="319" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyE-ct-bCg">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LQS-fL-kwj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4U-qM-qga">
+                                <rect key="frame" x="115" y="579" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Zc8-zO-buf"/>
@@ -580,7 +750,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bqf-NG-tY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8560.8695652173919" y="-539.0625"/>
+            <point key="canvasLocation" x="9090" y="-540"/>
         </scene>
         <!--Stress Answer5 View Controller-->
         <scene sceneID="Iyr-g9-LYs">
@@ -601,6 +771,25 @@
                                 <rect key="frame" x="37" y="193" width="340" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRS-dY-NGd">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bxX-om-erc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqJ-Se-zas">
+                                <rect key="frame" x="115" y="590" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GnY-fK-XFn"/>
@@ -608,7 +797,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uQo-nv-izi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9231.8840579710159" y="-539.0625"/>
+            <point key="canvasLocation" x="9730" y="-540"/>
         </scene>
         <!--Stress Answer6 View Controller-->
         <scene sceneID="qXV-nb-bH3">
@@ -629,6 +818,25 @@
                                 <rect key="frame" x="44" y="199" width="334" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmr-fP-IsI">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1FT-n1-lha"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwd-He-0eI">
+                                <rect key="frame" x="119" y="593" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mC3-lo-Uvy"/>
@@ -636,7 +844,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMP-67-nRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9950.7246376811599" y="-540.40178571428567"/>
+            <point key="canvasLocation" x="10367" y="-540"/>
         </scene>
         <!--Stress Answer7 View Controller-->
         <scene sceneID="qgA-xL-dh1">
@@ -657,6 +865,25 @@
                                 <rect key="frame" x="49" y="198" width="316" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qy3-P9-wOM">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="OYe-Ee-38h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru6-zY-qFt">
+                                <rect key="frame" x="115" y="594" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.47450980390000003" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ALd-Es-xc9"/>
@@ -664,7 +891,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eid-wX-m45" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10643.478260869566" y="-539.0625"/>
+            <point key="canvasLocation" x="11064" y="-539"/>
         </scene>
         <!--Anxiety View Controller-->
         <scene sceneID="YFS-f4-LZa">
@@ -688,6 +915,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="xJj-Mu-xhp" eventType="touchUpInside" id="AFW-sI-9Xe"/>
+                                    <segue destination="Wy2-hc-eaS" kind="show" id="wcd-Kv-4St"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="worry.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uux-2Y-Xom">
                                 <rect key="frame" x="24" y="175" width="366" height="196"/>
@@ -700,6 +931,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="mNM-61-6Ph"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMB-5x-leF">
                                 <rect key="frame" x="256" y="426" width="34" height="47"/>
@@ -708,6 +942,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Wy2-hc-eaS" kind="show" id="xun-YS-2Tl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.15612508398385716" green="1" blue="0.60910043298305849" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -740,6 +977,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bje-fi-FMr" kind="show" id="sUj-nD-iRN"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fear.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1BU-NH-19M">
                                 <rect key="frame" x="20" y="163" width="374" height="207"/>
@@ -752,6 +992,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="xJj-Mu-xhp" kind="show" id="Oxt-ib-aLu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53P-Pi-UYJ">
                                 <rect key="frame" x="122" y="426" width="44" height="47"/>
@@ -760,6 +1003,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="Wy2-hc-eaS" eventType="touchUpInside" id="uQI-38-aGI"/>
+                                    <segue destination="bje-fi-FMr" kind="show" id="Pfs-yE-Okt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.156125084" green="1" blue="0.60910043300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -792,6 +1039,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="IES-zz-W3i" kind="show" id="OKr-bv-pwQ"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="panicAttack.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LcM-tt-Ssr">
                                 <rect key="frame" x="20" y="129" width="374" height="218"/>
@@ -804,6 +1054,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Wy2-hc-eaS" kind="show" id="cAw-1I-cVo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJP-50-qLj">
                                 <rect key="frame" x="109" y="426" width="44" height="47"/>
@@ -812,6 +1065,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="bje-fi-FMr" eventType="touchUpInside" id="2ww-M4-Fzh"/>
+                                    <segue destination="IES-zz-W3i" kind="show" id="za6-dA-Bb3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.156125084" green="1" blue="0.60910043300000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -844,6 +1101,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="IES-zz-W3i" eventType="touchUpInside" id="JUI-JR-7lG"/>
+                                    <segue destination="pqk-2r-kCM" kind="show" id="rN1-9M-jWm"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="family2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VRO-MF-eWv">
                                 <rect key="frame" x="20" y="161" width="374" height="197"/>
@@ -856,6 +1117,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bje-fi-FMr" kind="show" id="kQa-Im-ils"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvG-0v-Ch2">
                                 <rect key="frame" x="264" y="426" width="34" height="47"/>
@@ -864,6 +1128,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pqk-2r-kCM" kind="show" id="M31-CD-L23"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22745098039215686" green="0.98039215686274506" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -896,6 +1163,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="pqk-2r-kCM" eventType="touchUpInside" id="KGd-QX-vu3"/>
+                                    <segue destination="847-nZ-bfH" kind="show" id="KH0-I8-NB7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9G-c2-YDx">
                                 <rect key="frame" x="246" y="426" width="34" height="47"/>
@@ -904,6 +1175,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="847-nZ-bfH" kind="show" id="Az3-qw-rUr"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="restless.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="58k-iT-YeW">
                                 <rect key="frame" x="20" y="166" width="374" height="214"/>
@@ -916,6 +1190,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="IES-zz-W3i" kind="show" id="NxR-G1-i13"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.27843137254901962" green="0.97254901960784312" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -948,6 +1225,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="847-nZ-bfH" eventType="touchUpInside" id="vbo-Lm-bR2"/>
+                                    <segue destination="mR3-Zj-O7y" kind="show" id="a84-Yl-jCQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XY-o9-WUU">
                                 <rect key="frame" x="257" y="426" width="34" height="47"/>
@@ -956,6 +1237,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mR3-Zj-O7y" kind="show" id="RbM-Ix-Xg2"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="irritated.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5BA-Hd-SIE">
                                 <rect key="frame" x="20" y="123" width="374" height="244"/>
@@ -968,6 +1252,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pqk-2r-kCM" kind="show" id="d95-s6-ptp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2274509804" green="0.98039215690000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1000,6 +1287,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="mR3-Zj-O7y" eventType="touchUpInside" id="Yy6-ai-cc3"/>
+                                    <segue destination="Pfg-f8-rk2" kind="show" id="uBV-dW-x6k"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lackOfConcentration.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NB5-rA-GTs">
                                 <rect key="frame" x="20" y="162" width="374" height="223"/>
@@ -1012,6 +1303,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="847-nZ-bfH" kind="show" id="CNR-sb-BRX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4m-uS-muX">
                                 <rect key="frame" x="250" y="426" width="34" height="47"/>
@@ -1020,6 +1314,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Pfg-f8-rk2" kind="show" id="23i-VA-beO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.97254901959999995" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1029,6 +1326,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rdp-Hp-5Oo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5592.753623188406" y="186.83035714285714"/>
+        </scene>
+        <!--Anxiety Loading View Controller-->
+        <scene sceneID="6Jf-ix-pcn">
+            <objects>
+                <viewController id="Pfg-f8-rk2" customClass="AnxietyLoadingViewController" customModule="S_O_S" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XHF-lh-VCY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please wait a moment in order to give you the correct advice." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e62-k2-Bc9">
+                                <rect key="frame" x="20" y="44" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhr-8u-Gna">
+                                <rect key="frame" x="116" y="425" width="182" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Recieve Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32156862745098042" green="0.96470588235294119" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="d3T-iP-K8X"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zco-lI-VHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6295.652173913044" y="186.83035714285714"/>
         </scene>
         <!--Anxiety Answer View Controller-->
         <scene sceneID="IlA-wU-cJe">
@@ -1049,6 +1378,25 @@
                                 <rect key="frame" x="20" y="183" width="374" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ9-Wo-JXm">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="36T-zN-Api"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fc-7u-uKG">
+                                <rect key="frame" x="115" y="535" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.32156862745098042" green="0.96470588235294119" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Aua-92-ICJ"/>
@@ -1056,7 +1404,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llq-PS-RfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6563.7681159420299" y="189.50892857142856"/>
+            <point key="canvasLocation" x="7767" y="190"/>
         </scene>
         <!--Anxiety Answer2 View Controller-->
         <scene sceneID="EHU-5n-Aei">
@@ -1077,6 +1425,25 @@
                                 <rect key="frame" x="29" y="141" width="357" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clx-Wr-3sF">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="O4i-kJ-YYf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWH-gs-J6l">
+                                <rect key="frame" x="115" y="526" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.35686274509803922" green="0.95686274509803926" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="b0r-A3-l8I"/>
@@ -1084,7 +1451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zAE-Jd-G9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7244.9275362318849" y="189.50892857142856"/>
+            <point key="canvasLocation" x="8422" y="187"/>
         </scene>
         <!--Anxiety Answer3 View Controller-->
         <scene sceneID="HHX-kC-qU1">
@@ -1106,6 +1473,25 @@
                                 <rect key="frame" x="59" y="240" width="296" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cU-zL-oo8">
+                                <rect key="frame" x="149" y="546" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="z8u-kG-nCC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-MT-9uz">
+                                <rect key="frame" x="119" y="654" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.94901960784313721" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="JgY-VW-adV"/>
@@ -1113,7 +1499,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTZ-pa-sJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7902.898550724638" y="189.50892857142856"/>
+            <point key="canvasLocation" x="9090" y="187"/>
         </scene>
         <!--Anxiety Answer4 View Controller-->
         <scene sceneID="PBA-hG-8Ti">
@@ -1134,6 +1520,25 @@
                                 <rect key="frame" x="32" y="178" width="350" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0V-wc-QEl">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GC3-UA-das"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbt-lW-pQw">
+                                <rect key="frame" x="115" y="539" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41568627450980394" green="0.94509803921568625" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7u6-Nx-qYZ"/>
@@ -1141,7 +1546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lz4-KA-zVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8560.8695652173919" y="189.50892857142856"/>
+            <point key="canvasLocation" x="9729" y="187"/>
         </scene>
         <!--Anxiety Answer5 View Controller-->
         <scene sceneID="qv2-F2-3b7">
@@ -1162,6 +1567,25 @@
                                 <rect key="frame" x="23" y="157" width="368" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLU-m7-T4R">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fwA-zX-bVQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-sl-0qB">
+                                <rect key="frame" x="115" y="533" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4392156862745098" green="0.94117647058823528" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ed3-6m-Am6"/>
@@ -1169,7 +1593,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6i6-ip-tYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9231.8840579710159" y="189.50892857142856"/>
+            <point key="canvasLocation" x="10367" y="187"/>
         </scene>
         <!--Anxiety Answer6 View Controller-->
         <scene sceneID="aj7-Zf-f9S">
@@ -1190,6 +1614,25 @@
                                 <rect key="frame" x="30" y="157" width="354" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG9-hT-VuM">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sNV-vi-xpO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIW-ZK-tU0">
+                                <rect key="frame" x="115" y="530" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.45882352941176469" green="0.93725490196078431" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3eR-sq-qio"/>
@@ -1197,7 +1640,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmN-ha-sYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9950.7246376811599" y="189.50892857142856"/>
+            <point key="canvasLocation" x="11064" y="187"/>
         </scene>
         <!--Depression View Controller-->
         <scene sceneID="MBH-e4-keo">
@@ -1214,6 +1657,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rQm-19-ik2" kind="show" id="2L2-7j-sn3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you experienced extreme sadness or hopelessness?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me4-Iu-hXa">
                                 <rect key="frame" x="20" y="44" width="374" height="91"/>
@@ -1233,6 +1679,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="KeP-eC-NRo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYk-8U-kBI">
                                 <rect key="frame" x="117" y="426" width="44" height="47"/>
@@ -1241,6 +1690,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="WqZ-Pl-KrQ" eventType="touchUpInside" id="gWB-4e-a13"/>
+                                    <segue destination="rQm-19-ik2" kind="show" id="gZJ-jT-sOh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20397206408875046" green="0.82196593596262035" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1315,6 +1768,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdq-JE-Jim">
+                                <rect key="frame" x="157" y="729" width="100" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="SDQ-90-wy1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DhS-uQ-XD4"/>
@@ -1346,6 +1810,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="rQm-19-ik2" eventType="touchUpInside" id="2mh-eb-jT6"/>
+                                    <segue destination="O2c-3Q-Wef" kind="show" id="zVo-R1-GGy"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="feelingImportant.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zzq-HA-kHL">
                                 <rect key="frame" x="20" y="87" width="374" height="227"/>
@@ -1358,6 +1826,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="WqZ-Pl-KrQ" kind="show" id="Mi2-F5-E4E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsF-gv-eHJ">
                                 <rect key="frame" x="254" y="426" width="34" height="47"/>
@@ -1366,6 +1837,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="O2c-3Q-Wef" kind="show" id="DPF-6y-m1F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38039215686274508" green="0.81568627450980391" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1398,6 +1872,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Pw5-sF-RJN" kind="show" id="UbL-5b-1U4"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="medication.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v7h-zt-sse">
                                 <rect key="frame" x="20" y="169" width="374" height="191"/>
@@ -1410,6 +1887,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rQm-19-ik2" kind="show" id="Rmj-Hf-rbe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3S-B1-c9s">
                                 <rect key="frame" x="110" y="426" width="44" height="47"/>
@@ -1418,6 +1898,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="O2c-3Q-Wef" eventType="touchUpInside" id="yho-ha-eud"/>
+                                    <segue destination="Pw5-sF-RJN" kind="show" id="FvQ-i5-2to"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1450,6 +1934,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dkF-WA-oCL" kind="show" id="giF-3q-cdQ"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="suicide.png" translatesAutoresizingMaskIntoConstraints="NO" id="DGQ-nx-Ldd">
                                 <rect key="frame" x="20" y="129" width="374" height="220"/>
@@ -1462,6 +1949,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="O2c-3Q-Wef" kind="show" id="YbU-sx-uvz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vu-Ht-yoy">
                                 <rect key="frame" x="107" y="426" width="44" height="47"/>
@@ -1470,6 +1960,10 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="yesButton:" destination="Pw5-sF-RJN" eventType="touchUpInside" id="7fL-3h-GBC"/>
+                                    <segue destination="dkF-WA-oCL" kind="show" id="okz-B4-6Ah"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1502,6 +1996,9 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0Lo-Kg-AgB" kind="show" id="uFp-4U-6rY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Oz-jA-2MW">
                                 <rect key="frame" x="288" y="426" width="34" height="47"/>
@@ -1510,6 +2007,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0Lo-Kg-AgB" kind="show" id="apP-cw-vhb"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lossOfInterest.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rRh-Oe-U9G">
                                 <rect key="frame" x="20" y="157" width="374" height="210"/>
@@ -1522,6 +2022,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Pw5-sF-RJN" kind="show" id="tTh-oG-xhf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1554,6 +2057,9 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="L2w-bx-smm" kind="show" id="NxZ-s8-tyY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OB2-Tc-WLX">
                                 <rect key="frame" x="276" y="426" width="34" height="47"/>
@@ -1562,6 +2068,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="L2w-bx-smm" kind="show" id="7Hj-jQ-gdA"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lossOfEnergy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cnB-mx-jHx">
                                 <rect key="frame" x="32" y="87" width="350" height="300"/>
@@ -1574,6 +2083,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dkF-WA-oCL" kind="show" id="Wt8-Me-uNb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1606,6 +2118,9 @@
                                 <state key="normal" title="Yes">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rPQ-fH-u6B" kind="show" id="8YB-RB-b68"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reckless.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="95r-qm-lPC">
                                 <rect key="frame" x="20" y="124" width="374" height="197"/>
@@ -1618,6 +2133,9 @@
                                 <state key="normal" title="Go Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0Lo-Kg-AgB" kind="show" id="EcO-Xe-rge"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXy-eQ-GjL">
                                 <rect key="frame" x="269" y="426" width="34" height="47"/>
@@ -1626,6 +2144,9 @@
                                 <state key="normal" title="No">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rPQ-fH-u6B" kind="show" id="Yo8-rE-CMT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.81568627449999997" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1635,6 +2156,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7k4-fY-Tch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5621.739130434783" y="954.91071428571422"/>
+        </scene>
+        <!--Depression Loading View Controller-->
+        <scene sceneID="wpt-Ca-l0c">
+            <objects>
+                <viewController id="rPQ-fH-u6B" customClass="DepressionLoadingViewController" customModule="S_O_S" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zDu-lr-GRe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please wait a moment in order to give you the correct advice." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzA-x5-hIn">
+                                <rect key="frame" x="20" y="44" width="374" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z31-oO-D2k">
+                                <rect key="frame" x="116" y="425" width="182" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Recieve Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.81960784313725488" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="SNi-1V-MQI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jle-PI-saB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6392.753623188406" y="954.91071428571422"/>
         </scene>
         <!--Depression Answer View Controller-->
         <scene sceneID="MqW-6G-QcO">
@@ -1655,6 +2208,25 @@
                                 <rect key="frame" x="36" y="124" width="342" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqG-Wn-AJf">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sPT-Fq-1I8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVQ-wA-OLY">
+                                <rect key="frame" x="115" y="503" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000000000002" green="0.81960784313725488" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6gF-oS-08F"/>
@@ -1662,7 +2234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYx-7l-n0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6563.7681159420299" y="954.91071428571422"/>
+            <point key="canvasLocation" x="7106" y="955"/>
         </scene>
         <!--Depression Answer2 View Controller-->
         <scene sceneID="wQY-Vf-z6Z">
@@ -1683,6 +2255,25 @@
                                 <rect key="frame" x="44" y="158" width="326" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDI-of-OBd">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="7gM-x5-t4k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezU-rh-7Am">
+                                <rect key="frame" x="115" y="514" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41960784313725491" green="0.81960784313725488" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jeB-AY-8fo"/>
@@ -1690,7 +2281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIJ-Wz-XD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7244.9275362318849" y="954.91071428571422"/>
+            <point key="canvasLocation" x="7767" y="955"/>
         </scene>
         <!--Depression Answer3 View Controller-->
         <scene sceneID="rB1-uC-eIX">
@@ -1711,6 +2302,25 @@
                                 <rect key="frame" x="36" y="125" width="343" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqd-OG-eOJ">
+                                <rect key="frame" x="149" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="awX-xq-ib7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE3-Ax-yPo">
+                                <rect key="frame" x="115" y="531" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4392156862745098" green="0.81960784313725488" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pWs-dN-gnq"/>
@@ -1718,7 +2328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Khn-tb-GfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7902.898550724638" y="954.91071428571422"/>
+            <point key="canvasLocation" x="8422" y="955"/>
         </scene>
         <!--Depression Answer4 View Controller-->
         <scene sceneID="tWO-kH-g7W">
@@ -1739,6 +2349,25 @@
                                 <rect key="frame" x="35" y="126" width="345" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvH-KH-iwz">
+                                <rect key="frame" x="149" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="hW4-Y1-XzS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-sx-zpM">
+                                <rect key="frame" x="119" y="542" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.45490196078431372" green="0.81960784313725488" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dBd-M4-WtA"/>
@@ -1746,7 +2375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kz2-CR-7aN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8560.8695652173919" y="954.91071428571422"/>
+            <point key="canvasLocation" x="9090" y="955"/>
         </scene>
         <!--Depression Answer5 View Controller-->
         <scene sceneID="hZe-mT-Y0I">
@@ -1767,6 +2396,25 @@
                                 <rect key="frame" x="20" y="195" width="374" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnk-b3-De7">
+                                <rect key="frame" x="145" y="425" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ZZR-1o-HN3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxC-g2-KTV">
+                                <rect key="frame" x="115" y="505" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47058823529411764" green="0.81960784313725488" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fuI-nD-Fgt"/>
@@ -1774,7 +2422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esu-sB-91R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9231.8840579710159" y="954.91071428571422"/>
+            <point key="canvasLocation" x="9729" y="955"/>
         </scene>
         <!--Depression Answer6 View Controller-->
         <scene sceneID="1M2-eq-D54">
@@ -1796,6 +2444,25 @@
                                 <rect key="frame" x="20" y="225" width="374" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbD-vQ-Shf">
+                                <rect key="frame" x="145" y="473" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="q0J-XK-Ogt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exY-Kz-BbG">
+                                <rect key="frame" x="115" y="560" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.48627450980392156" green="0.81960784313725488" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Qul-Uw-sRO"/>
@@ -1803,7 +2470,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yIm-9c-rrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9950.7246376811599" y="954.91071428571422"/>
+            <point key="canvasLocation" x="10367" y="955"/>
         </scene>
         <!--Depression Answer7 View Controller-->
         <scene sceneID="nh4-Rc-fuU">
@@ -1824,6 +2491,25 @@
                                 <rect key="frame" x="20" y="195" width="374" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YA-Ko-exC">
+                                <rect key="frame" x="145" y="445" width="125" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Thank You">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fJg-DX-G8W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe0-mt-fRZ">
+                                <rect key="frame" x="115" y="521" width="184" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="25"/>
+                                <state key="normal" title="Another Advice">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.49803921568627452" green="0.81960784313725488" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cFp-0e-IjV"/>
@@ -1831,12 +2517,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgj-D5-ydk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10631.884057971016" y="954.91071428571422"/>
+            <point key="canvasLocation" x="11064" y="955"/>
         </scene>
     </scenes>
     <resources>
         <image name="1325787.gif" width="698" height="434"/>
-        <image name="Blue-Rectangle.png" width="2048" height="1024"/>
         <image name="Unknown.png" width="261" height="193"/>
         <image name="activitiesThatAreOfInterest.jpg" width="970" height="450"/>
         <image name="beingOutside.jpg" width="770" height="430"/>
@@ -1881,4 +2566,31 @@
         <image name="worry.jpg" width="660" height="438"/>
         <image name="writing.jpg" width="1600" height="900"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="8YB-RB-b68"/>
+        <segue reference="NxZ-s8-tyY"/>
+        <segue reference="EcO-Xe-rge"/>
+        <segue reference="okz-B4-6Ah"/>
+        <segue reference="FvQ-i5-2to"/>
+        <segue reference="YbU-sx-uvz"/>
+        <segue reference="Rmj-Hf-rbe"/>
+        <segue reference="Mi2-F5-E4E"/>
+        <segue reference="uBV-dW-x6k"/>
+        <segue reference="a84-Yl-jCQ"/>
+        <segue reference="CNR-sb-BRX"/>
+        <segue reference="d95-s6-ptp"/>
+        <segue reference="NxR-G1-i13"/>
+        <segue reference="kQa-Im-ils"/>
+        <segue reference="cAw-1I-cVo"/>
+        <segue reference="Oxt-ib-aLu"/>
+        <segue reference="mns-f3-6dv"/>
+        <segue reference="wUA-h0-dwZ"/>
+        <segue reference="RTm-eY-HtK"/>
+        <segue reference="H5B-sX-jiy"/>
+        <segue reference="hhf-09-Ghq"/>
+        <segue reference="1R5-9a-u0L"/>
+        <segue reference="97R-4n-kb5"/>
+        <segue reference="IGK-x8-NPb"/>
+        <segue reference="KeP-eC-NRo"/>
+    </inferredMetricsTieBreakers>
 </document>
