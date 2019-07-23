@@ -82,6 +82,7 @@
 		3FB8BEC522DE3C1F005C5400 /* tired.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8BEC422DE3C1D005C5400 /* tired.jpg */; };
 		3FB8BEC822DE3E4D005C5400 /* safe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8BEC722DE3E4C005C5400 /* safe.png */; };
 		3FB8BECA22DE3ED5005C5400 /* fatigued.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB8BEC922DE3ED4005C5400 /* fatigued.jpg */; };
+		3FC0D9ED22E75F2F00E514F6 /* TestingAnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D9EC22E75F2F00E514F6 /* TestingAnswersViewController.swift */; };
 		3FCDC6A622D6293300433AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A522D6293300433AAB /* AppDelegate.swift */; };
 		3FCDC6A822D6293300433AAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A722D6293300433AAB /* ViewController.swift */; };
 		3FCDC6AB22D6293300433AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCDC6A922D6293300433AAB /* Main.storyboard */; };
@@ -202,6 +203,7 @@
 		3FB8BEC622DE3D5E005C5400 /* fatigue.jp2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fatigue.jp2; path = Pictures/fatigue.jp2; sourceTree = SOURCE_ROOT; };
 		3FB8BEC722DE3E4C005C5400 /* safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = safe.png; path = Pictures/safe.png; sourceTree = SOURCE_ROOT; };
 		3FB8BEC922DE3ED4005C5400 /* fatigued.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fatigued.jpg; path = Pictures/fatigued.jpg; sourceTree = SOURCE_ROOT; };
+		3FC0D9EC22E75F2F00E514F6 /* TestingAnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAnswersViewController.swift; sourceTree = "<group>"; };
 		3FCDC6A222D6293300433AAB /* S.O.S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S.O.S.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCDC6A522D6293300433AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCDC6A722D6293300433AAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 		3FCDC69922D6293300433AAB = {
 			isa = PBXGroup;
 			children = (
+				3FC0D9EC22E75F2F00E514F6 /* TestingAnswersViewController.swift */,
 				3FB8BE9122DE1545005C5400 /* StressAnswer2ViewController.swift */,
 				3FB8BE8F22DE14F0005C5400 /* StressAnswerViewController.swift */,
 				3FCDC6E722D657EB00433AAB /* StressSecondViewController.swift */,
@@ -582,6 +585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAB2BAF22E60D3200589DC5 /* DepressionLoadingViewController.swift in Sources */,
+				3FC0D9ED22E75F2F00E514F6 /* TestingAnswersViewController.swift in Sources */,
 				3FB8BEA822DE17D6005C5400 /* AnxietyAnswer6ViewController.swift in Sources */,
 				3FB8BEA022DE1721005C5400 /* AnxietyAnswer2ViewController.swift in Sources */,
 				3FB8BEA222DE1753005C5400 /* AnxietyAnswer3ViewController.swift in Sources */,

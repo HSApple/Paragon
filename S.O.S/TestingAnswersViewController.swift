@@ -1,21 +1,31 @@
 //
-//  DepressionAnswer7ViewController.swift
+//  TestingAnswersViewController.swift
 //  S.O.S
 //
-//  Created by student on 7/16/19.
+//  Created by student on 7/23/19.
 //  Copyright © 2019 student. All rights reserved.
 //
 
 import UIKit
 
-class DepressionAnswer7ViewController: UIViewController
+class TestingAnswersViewController: UIViewController
 {
-
+    var dict:[String: Int] = [:]
+    @IBOutlet weak var answer: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    @IBAction func anotherAdvice(_ sender: Any)
+    {
+     answer.text = "hello"
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        var dict:[String:Int] = [:]
+        UserDefaults.standard.set(dict, forKey: "dict")
     }
     
 

@@ -17,8 +17,8 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
         UserDefaults.standard.removeObject(forKey: "answerList")
         
-        var answerLst: [Bool] = []
-        UserDefaults.standard.set(answerLst, forKey: "answerList")
+        var answerList: [Bool] = []
+        UserDefaults.standard.set(answerList, forKey: "answerList")
     }
 
 
