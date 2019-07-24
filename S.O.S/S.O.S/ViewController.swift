@@ -19,6 +19,15 @@ class ViewController: UIViewController
         
         var answerList: [Bool] = []
         UserDefaults.standard.set(answerList, forKey: "answerList")
+        
+        let dict:[Int:String] = [:]
+        UserDefaults.standard.set(dict, forKey: "stressDict")
+        
+        let dict2:[Int:String] = [:]
+        UserDefaults.standard.set(dict, forKey: "anxietyDict")
+        
+        let dict3:[Int:String] = [:]
+        UserDefaults.standard.set(dict, forKey: "depressionDict")
     }
 
 

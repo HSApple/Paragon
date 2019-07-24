@@ -8,9 +8,8 @@
 
 import UIKit
 
-class TestingAnswersViewController: UIViewController
-{
-    var dict:[String: Int] = [:]
+class TestingAnswersViewController: UIViewController{
+    
     @IBOutlet weak var answer: UILabel!
     @IBOutlet weak var image: UIImageView!
     @IBAction func anotherAdvice(_ sender: Any)
@@ -18,14 +17,36 @@ class TestingAnswersViewController: UIViewController
      answer.text = "hello"
     }
     
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        retrieveResults()
         
-        var dict:[String:Int] = [:]
-        UserDefaults.standard.set(dict, forKey: "dict")
+                // Do any additional setup after loading the view.
+        
+        
+    }
+    func retrieveResults(){
+        var yes = 10000
+        var dict:[Int:String] = [:]
+        
+        var arrayObject = UserDefaults.standard.object(forKey: "answerList")
+        if let tempItems = arrayObject as? [Bool]
+        {
+            let answerList = tempItems
+            yes = answerList.count
+        }
+        
+        var arrayObject1 = UserDefaults.standard.object(forKey: "stressDict")
+        if let tempItems = arrayObject1 as? [Int:String]
+        {
+            dict = tempItems
+        }
+        
+        if yes != 10000 && dict.count > 0 {
+            answer.text = dict[yes]
+        }
     }
     
 
