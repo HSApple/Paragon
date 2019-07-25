@@ -1380,6 +1380,9 @@
                                 <state key="normal" title="Thank You">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="48z-Uy-h96"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V45-Dr-aG7">
                                 <rect key="frame" x="20" y="44" width="374" height="115"/>
@@ -2633,6 +2636,6 @@
         <segue reference="1R5-9a-u0L"/>
         <segue reference="97R-4n-kb5"/>
         <segue reference="CyJ-hf-k6c"/>
-        <segue reference="mNM-61-6Ph"/>
+        <segue reference="48z-Uy-h96"/>
     </inferredMetricsTieBreakers>
 </document>

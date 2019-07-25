@@ -10,7 +10,7 @@ import UIKit
 
 class AnxietyViewController: UIViewController
 {
-    var answerBool = false
+    var answerBool = true
     var items:[Bool] = []
     @IBAction func yesButton(_ sender: Any)
     {
@@ -26,12 +26,10 @@ class AnxietyViewController: UIViewController
         {
             items = [answerBool]
         }
+        UserDefaults.standard.set(items, forKey: "answerList")
+        
     }
     
-    var answers = 0
-    
-    
-    var arrayObject = UserDefaults.standard.object(forKey: "answerList")
     
 
     override func viewDidLoad()

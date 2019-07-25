@@ -23,11 +23,11 @@ class ViewController: UIViewController
         let dict:[Int:String] = [:]
         UserDefaults.standard.set(dict, forKey: "stressDict")
         
-        let dict2:[Int:String] = [:]
-        UserDefaults.standard.set(dict, forKey: "anxietyDict")
+        let dict2 = [1:"breathingExcerise", 2:"calmMusic", 3:"thinkOfThepresent", 4:"movement", 5:"calmDownAndRelax", 6:"writeItDown"]
+        UserDefaults.standard.set(dict2, forKey: "anxietyDict")
         
         let dict3:[Int:String] = [:]
-        UserDefaults.standard.set(dict, forKey: "depressionDict")
+        UserDefaults.standard.set(dict3, forKey: "depressionDict")
     }
 
 

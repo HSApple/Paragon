@@ -8,13 +8,17 @@
 
 import UIKit
 
-class TestingAnswersViewController: UIViewController{
-    
+class TestingAnswersViewController: UIViewController
+{
+    var yes = 10000
+    var dict:[Int:String] = [:]
     @IBOutlet weak var answer: UILabel!
     @IBOutlet weak var image: UIImageView!
     @IBAction func anotherAdvice(_ sender: Any)
     {
-     answer.text = "hello"
+        print("more advice")
+        answer.text = dict[yes]
+        yes+=1
     }
     
     
@@ -27,24 +31,28 @@ class TestingAnswersViewController: UIViewController{
         
         
     }
-    func retrieveResults(){
-        var yes = 10000
-        var dict:[Int:String] = [:]
+    func retrieveResults()
+    {
+       print("retrieving results")
         
         var arrayObject = UserDefaults.standard.object(forKey: "answerList")
         if let tempItems = arrayObject as? [Bool]
         {
             let answerList = tempItems
             yes = answerList.count
+            print(yes)
         }
         
-        var arrayObject1 = UserDefaults.standard.object(forKey: "stressDict")
+        var arrayObject1 = UserDefaults.standard.object(forKey: "anxietyDict")
         if let tempItems = arrayObject1 as? [Int:String]
         {
             dict = tempItems
+            print(dict)
         }
         
-        if yes != 10000 && dict.count > 0 {
+        if yes != 10000 && dict.count > 0
+        {
+            print("in Populate")
             answer.text = dict[yes]
         }
     }
