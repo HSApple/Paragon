@@ -42,6 +42,8 @@
 		3F07FADF22E0CCBF00495874 /* listeningToMusic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */; };
 		3F07FAE122E0CCCB00495874 /* think.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE022E0CCC900495874 /* think.jpg */; };
 		3F07FAE322E0CE4700495874 /* beingOutside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F07FAE222E0CE4400495874 /* beingOutside.jpg */; };
+		3F8FDA4F22EF5B630099D5BF /* DepressionAnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FDA4E22EF5B630099D5BF /* DepressionAnswersViewController.swift */; };
+		3F8FDA5122EF5BD90099D5BF /* StressAnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FDA5022EF5BD90099D5BF /* StressAnswersViewController.swift */; };
 		3F9D000322DCD29D00F3D6A9 /* Depression Fifth ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */; };
 		3F9D000522DCD36400F3D6A9 /* DepressionSixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */; };
 		3F9D000722DCD3A500F3D6A9 /* DepressionSeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */; };
@@ -162,6 +164,8 @@
 		3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = listeningToMusic2.jpg; path = Pictures/listeningToMusic2.jpg; sourceTree = SOURCE_ROOT; };
 		3F07FAE022E0CCC900495874 /* think.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = think.jpg; path = Pictures/think.jpg; sourceTree = SOURCE_ROOT; };
 		3F07FAE222E0CE4400495874 /* beingOutside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beingOutside.jpg; path = Pictures/beingOutside.jpg; sourceTree = SOURCE_ROOT; };
+		3F8FDA4E22EF5B630099D5BF /* DepressionAnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionAnswersViewController.swift; sourceTree = "<group>"; };
+		3F8FDA5022EF5BD90099D5BF /* StressAnswersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressAnswersViewController.swift; sourceTree = "<group>"; };
 		3F9D000222DCD29D00F3D6A9 /* Depression Fifth ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Depression Fifth ViewController.swift"; sourceTree = "<group>"; };
 		3F9D000422DCD36400F3D6A9 /* DepressionSixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSixthViewController.swift; sourceTree = "<group>"; };
 		3F9D000622DCD3A500F3D6A9 /* DepressionSeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionSeventhViewController.swift; sourceTree = "<group>"; };
@@ -339,6 +343,8 @@
 				3FCDC6A522D6293300433AAB /* AppDelegate.swift */,
 				3FCDC6A722D6293300433AAB /* ViewController.swift */,
 				3FCDC6A922D6293300433AAB /* Main.storyboard */,
+				3F8FDA5022EF5BD90099D5BF /* StressAnswersViewController.swift */,
+				3F8FDA4E22EF5B630099D5BF /* DepressionAnswersViewController.swift */,
 				3FAB2BAE22E60D3200589DC5 /* DepressionLoadingViewController.swift */,
 				3FAB2BAC22E60CC000589DC5 /* AnxietyLoadingViewController.swift */,
 				3FAB2BAA22E60BD900589DC5 /* StressLoadingViewController.swift */,
@@ -618,6 +624,7 @@
 				3FB8BEA622DE17A4005C5400 /* AnxietyAnswer5ViewController.swift in Sources */,
 				3FB8BE9222DE1545005C5400 /* StressAnswer2ViewController.swift in Sources */,
 				3FB8BE9C22DE168C005C5400 /* StressAnswer7ViewController.swift in Sources */,
+				3F8FDA5122EF5BD90099D5BF /* StressAnswersViewController.swift in Sources */,
 				3FCDC6E622D6331200433AAB /* StressViewController.swift in Sources */,
 				3FCDC6F822D6599D00433AAB /* DepressionFourthViewController.swift in Sources */,
 				3F9D001322DCE0E500F3D6A9 /* StressSeventhViewController.swift in Sources */,
@@ -626,6 +633,7 @@
 				3F9D000B22DCD70000F3D6A9 /* AnxietySixthViewController.swift in Sources */,
 				3FCDC6E822D657EB00433AAB /* StressSecondViewController.swift in Sources */,
 				3FCDC6F422D6595A00433AAB /* DepressionSecondViewController.swift in Sources */,
+				3F8FDA4F22EF5B630099D5BF /* DepressionAnswersViewController.swift in Sources */,
 				3F9D000F22DCDF6900F3D6A9 /* StressFifthViewController.swift in Sources */,
 				3FB8BEB622DE191A005C5400 /* DepressionAnswer6ViewController.swift in Sources */,
 				3FB8BEB822DE193A005C5400 /* DepressionAnswer7ViewController.swift in Sources */,
