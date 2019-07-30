@@ -10,6 +10,8 @@ import UIKit
 
 class TestingAnswersViewController: UIViewController
 {
+    
+    let dict3 = [1:"breathingExersise"]
     var yes = 10000
     var dict:[Int:String] = [:]
     @IBOutlet weak var answer: UILabel!
@@ -20,7 +22,7 @@ class TestingAnswersViewController: UIViewController
         answer.text = dict[yes]
         yes+=1
         
-        image.image = UIImage(named: ("breathingExercise.jpg"))
+        image.image = UIImage(named: dict3[1]!)
     }
     
     
