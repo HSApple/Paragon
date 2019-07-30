@@ -11,7 +11,12 @@ import UIKit
 class TestingAnswersViewController: UIViewController
 {
     
-    let dict3 = [1:"breathingExersise"]
+    let dict3 = [1:"breathingExersise",
+                 2:"listeningToMusic2",
+                 3:"rememberingThePresent",
+                 4:"movement",
+                 5:"calm",
+                 6:"writing"]
     var yes = 10000
     var dict:[Int:String] = [:]
     @IBOutlet weak var answer: UILabel!
@@ -23,18 +28,13 @@ class TestingAnswersViewController: UIViewController
         yes+=1
         
         image.image = UIImage(named: dict3[1]!)
+        image.image = UIImage(named: dict3[2]!)
     }
-    
-    
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         retrieveResults()
-        
-                // Do any additional setup after loading the view.
-        
-        
     }
     func retrieveResults()
     {
@@ -53,6 +53,7 @@ class TestingAnswersViewController: UIViewController
             let dict2 = NSKeyedUnarchiver.unarchiveObject(with: data2 as Data)
             dict = dict2 as! [Int : String]
         }
+        if let 
     
         if yes != 10000 && dict.count > 0
         {
@@ -60,16 +61,4 @@ class TestingAnswersViewController: UIViewController
             answer.text = dict[yes]
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
