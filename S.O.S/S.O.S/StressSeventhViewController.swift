@@ -27,12 +27,10 @@ class StressSeventhViewController: UIViewController
         {
         items = [answerBool]
         }
+        UserDefaults.standard.set(items, forKey: "answerList")
     }
     
-    var answers = 0
     
-    
-    var arrayObject = UserDefaults.standard.object(forKey: "answerList")
     
 
     override func viewDidLoad()

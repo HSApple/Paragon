@@ -10,6 +10,7 @@ import UIKit
 
 class StressAnswersViewController: UIViewController
 {
+    var dict3: [Int:String] = [:]
     var yes = 10000
     var dict:[Int:String] = [:]
     
@@ -26,6 +27,12 @@ class StressAnswersViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        dict3 = [1:"",
+                 2:"",
+                 3:"",
+                 4:"",
+                 5:"",
+                 6:""]
         retrieveResults()
 
         // Do any additional setup after loading the view.
