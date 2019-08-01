@@ -276,6 +276,7 @@
 				3FCDC6B922D6293500433AAB /* S.O.STests */,
 				3FCDC6C422D6293500433AAB /* S.O.SUITests */,
 				3FCDC6A322D6293300433AAB /* Products */,
+				C45E75FA22F342C600234448 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,7 +295,6 @@
 			children = (
 				3F07FAE222E0CE4400495874 /* beingOutside.jpg */,
 				3F07FAE022E0CCC900495874 /* think.jpg */,
-				3F07FABC22E0C14900495874 /* listeningToMusic2.jpg */,
 				3FCDC6DB22D62D7800433AAB /* 1325787.gif */,
 				3FCDC6DD22D630A000433AAB /* Paragon.png */,
 				3FCDC6D922D62D7400433AAB /* Blue-Rectangle.png */,
@@ -410,6 +410,14 @@
 				3FCDC6C722D6293500433AAB /* Info.plist */,
 			);
 			path = S.O.SUITests;
+			sourceTree = "<group>";
+		};
+		C45E75FA22F342C600234448 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3F07FADE22E0CCBF00495874 /* listeningToMusic2.jpg */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

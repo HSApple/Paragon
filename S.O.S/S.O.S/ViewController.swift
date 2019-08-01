@@ -54,7 +54,7 @@ class ViewController: UIViewController
                 print("Error saving to memory")
         }
         
-        let dict3 = [1:"If you have not, please take your prescription medication.",
+        let dict4 = [1:"If you have not, please take your prescription medication.",
                      2:"You may want to begin by reaching out and connect with your friends and family.",
                      3:"Begin exercising or continue if you are already exercising.",
                      4:"Begin by maintaining a healthy diet.",
@@ -63,7 +63,7 @@ class ViewController: UIViewController
                      7:"Identify the source, focus on the cause instead of the problem itself and think about how it can be fixed."]
         do
         {
-            let data3 = try NSKeyedArchiver.archivedData(withRootObject: dict3, requiringSecureCoding: false)
+            let data3 = try NSKeyedArchiver.archivedData(withRootObject: dict4, requiringSecureCoding: false)
             UserDefaults.standard.set(data3, forKey: "depressionDict")
         }
         catch

@@ -630,6 +630,7 @@
                         <viewLayoutGuide key="safeArea" id="cC8-0d-vBe"/>
                     </view>
                     <connections>
+                        <outlet property="aabutton" destination="nAE-al-Gf0" id="BNI-kG-If1"/>
                         <outlet property="answer" destination="uQU-FN-d5W" id="l2K-XK-5ag"/>
                         <outlet property="image" destination="qPX-eg-5Qv" id="VHO-f1-ycD"/>
                     </connections>
@@ -1536,7 +1537,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llq-PS-RfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7778" y="-1204"/>
+            <point key="canvasLocation" x="8306" y="-490"/>
         </scene>
         <!--Anxiety Answer2 View Controller-->
         <scene sceneID="EHU-5n-Aei">
@@ -1583,7 +1584,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zAE-Jd-G9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8475" y="-1238"/>
+            <point key="canvasLocation" x="9016" y="-453"/>
         </scene>
         <!--Anxiety Answer3 View Controller-->
         <scene sceneID="HHX-kC-qU1">
@@ -1631,7 +1632,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTZ-pa-sJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9061" y="-1146"/>
+            <point key="canvasLocation" x="9706" y="-379"/>
         </scene>
         <!--Anxiety Answer4 View Controller-->
         <scene sceneID="PBA-hG-8Ti">
@@ -1678,7 +1679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lz4-KA-zVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9639" y="-1013"/>
+            <point key="canvasLocation" x="10426" y="-379"/>
         </scene>
         <!--Anxiety Answer5 View Controller-->
         <scene sceneID="qv2-F2-3b7">
@@ -1725,7 +1726,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6i6-ip-tYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10386" y="-1112"/>
+            <point key="canvasLocation" x="11093" y="-406"/>
         </scene>
         <!--Anxiety Answer6 View Controller-->
         <scene sceneID="aj7-Zf-f9S">
@@ -1772,7 +1773,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmN-ha-sYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11064" y="-539"/>
+            <point key="canvasLocation" x="11736" y="-406"/>
         </scene>
         <!--Depression View Controller-->
         <scene sceneID="MBH-e4-keo">
@@ -2373,6 +2374,7 @@
                         <viewLayoutGuide key="safeArea" id="Pcd-bQ-2rh"/>
                     </view>
                     <connections>
+                        <outlet property="aabutton" destination="qw3-EC-5Nq" id="eln-J2-Q8R"/>
                         <outlet property="anotherAdvice" destination="qw3-EC-5Nq" id="BkN-jt-18w"/>
                         <outlet property="answer" destination="CwE-lV-fHy" id="zgL-QN-KKA"/>
                         <outlet property="image" destination="Qqs-aN-fgb" id="kcu-9z-4ep"/>
@@ -2781,6 +2783,6 @@
         <segue reference="1R5-9a-u0L"/>
         <segue reference="97R-4n-kb5"/>
         <segue reference="CyJ-hf-k6c"/>
-        <segue reference="4ex-4U-aWD"/>
+        <segue reference="fJg-DX-G8W"/>
     </inferredMetricsTieBreakers>
 </document>
